@@ -1,0 +1,13 @@
+organization:
+  name: "sample"
+
+admin:
+  email: "sample@email.org"
+  password: "test"
+
+clusters:
+  - id: default
+    name: My Local Kafka Cluster
+    color: "#0013E7"
+    ignoreUntrustedCertificate: false
+    bootstrapServers: "kafka1:19092"
